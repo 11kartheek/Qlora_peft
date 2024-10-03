@@ -24,6 +24,7 @@ We employ the QLoRA approach to fine-tune the PHI 3.5 model. QLoRA is used to en
 1. **Dataset Loading:** We use the `OpenAssistant/oasst1` dataset to load data and format it for training.
 2. **Model Preparation:** The [PHI 3.5](https://huggingface.co/kartheekb7/peft_phi3.5) model is loaded using the PEFT library, and QLoRA is applied to enable memory-efficient fine-tuning.
 3. **Fine-tuning:** The model is fine-tuned using the QLoRA method on the instruction-based conversation data.
+4. training script: lora_peft.ipynb
 
 ## Hugging Face Gradio App
 
